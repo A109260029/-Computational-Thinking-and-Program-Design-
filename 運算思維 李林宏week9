@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNaOQA/RhP7t0eW6rD4T/YJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/A109260029/-Computational-Thinking-and-Program-Design-/blob/master/%E9%81%8B%E7%AE%97%E6%80%9D%E7%B6%AD%20%E6%9D%8E%E6%9E%97%E5%AE%8Fweek9\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5sqp7YPFgDWA",
+        "outputId": "1c95336c-b6bc-484a-da2c-914160a82bec",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "input(\"enter the number\")\n",
+        "x=input(\"enter the number\")\n",
+        "x\n",
+        "print(x)\n",
+        "print(x,2,\"Python\")\n",
+        "x=input(\"enter the quantity of cloth\")\n",
+        "x=int(x)\n",
+        "Total=300*x\n",
+        "print(Total)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "enter the number4\n",
+            "enter the number4\n",
+            "4\n",
+            "4 2 Python\n",
+            "enter the quantity of cloth4\n",
+            "1200\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "kiKqBDu_jLAJ",
+        "outputId": "c4c81052-0ab4-4179-c91f-6076bed08160",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "first= int(input(\"請輸入第一次期中考成績?\"))\n",
+        "second= int(input(\"請輸入第二次期中考成績?\"))\n",
+        "final= int(input(\"請輸入期末考成績?\"))\n",
+        "total = first+ second+ final\n",
+        "average= total / 3\n",
+        "print(\"總分為\", total, \"平均為\", average)\n"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入第一次期中考成績?75\n",
+            "請輸入第二次期中考成績?80\n",
+            "請輸入期末考成績?65\n",
+            "總分為 220 平均為 73.33333333333333\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
